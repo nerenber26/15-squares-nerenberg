@@ -139,10 +139,177 @@ public class SController implements View.OnClickListener{
             }
         }
         if (view.getId() == R.id.b4) {
-            b4.setText("4");
+            if(b3.getText().toString().equals("")){
+                b3.setText(b4.getText().toString());
+                b4.setText("");
+            }
+            else if(b8.getText().toString().equals("")){
+                b8.setText(b4.getText().toString());
+                b4.setText("");
+            }
+        }
+        if (view.getId() == R.id.b5) {
+            if(b1.getText().toString().equals("")){
+                b1.setText(b5.getText().toString());
+                b5.setText("");
+            }
+            else if(b6.getText().toString().equals("")){
+                b6.setText(b5.getText().toString());
+                b5.setText("");
+            }
+            else if(b9.getText().toString().equals("")){
+                b9.setText(b5.getText().toString());
+                b5.setText("");
+            }
+        }
+        if (view.getId() == R.id.b6) {
+            if(b5.getText().toString().equals("")){
+                b5.setText(b6.getText().toString());
+                b6.setText("");
+            }
+            else if(b7.getText().toString().equals("")){
+                b7.setText(b6.getText().toString());
+                b6.setText("");
+            }
+            else if(b2.getText().toString().equals("")){
+                b2.setText(b6.getText().toString());
+                b6.setText("");
+            }
+            else if(b10.getText().toString().equals("")){
+                b10.setText(b6.getText().toString());
+                b6.setText("");
+            }
+        }
+        if (view.getId() == R.id.b7) {
+            if(b6.getText().toString().equals("")){
+                b6.setText(b7.getText().toString());
+                b7.setText("");
+            }
+            else if(b8.getText().toString().equals("")){
+                b8.setText(b7.getText().toString());
+                b7.setText("");
+            }
+            else if(b3.getText().toString().equals("")){
+                b3.setText(b7.getText().toString());
+                b7.setText("");
+            }
+            else if(b11.getText().toString().equals("")){
+                b11.setText(b7.getText().toString());
+                b7.setText("");
+            }
+        }
+        if (view.getId() == R.id.b8) {
+            if(b7.getText().toString().equals("")){
+                b7.setText(b8.getText().toString());
+                b8.setText("");
+            }
+            else if(b4.getText().toString().equals("")){
+                b4.setText(b8.getText().toString());
+                b8.setText("");
+            }
+            else if(b12.getText().toString().equals("")){
+                b12.setText(b8.getText().toString());
+                b8.setText("");
+            }
+        }
+        if (view.getId() == R.id.b9) {
+            if(b5.getText().toString().equals("")){
+                b5.setText(b9.getText().toString());
+                b9.setText("");
+            }
+            else if(b13.getText().toString().equals("")){
+                b13.setText(b9.getText().toString());
+                b9.setText("");
+            }
+            else if(b10.getText().toString().equals("")){
+                b10.setText(b9.getText().toString());
+                b9.setText("");
+            }
+        }
+        if (view.getId() == R.id.b10) {
+            if(b6.getText().toString().equals("")){
+                b6.setText(b10.getText().toString());
+                b10.setText("");
+            }
+            else if(b14.getText().toString().equals("")){
+                b14.setText(b10.getText().toString());
+                b10.setText("");
+            }
+            else if(b9.getText().toString().equals("")){
+                b9.setText(b10.getText().toString());
+                b10.setText("");
+            }
+            else if(b11.getText().toString().equals("")){
+                b11.setText(b10.getText().toString());
+                b10.setText("");
+            }
+        }
+        if (view.getId() == R.id.b11) {
+            if(b7.getText().toString().equals("")){
+                b7.setText(b11.getText().toString());
+                b11.setText("");
+            }
+            else if(b15.getText().toString().equals("")){
+                b15.setText(b11.getText().toString());
+                b11.setText("");
+            }
+            else if(b10.getText().toString().equals("")){
+                b10.setText(b11.getText().toString());
+                b11.setText("");
+            }
+            else if(b12.getText().toString().equals("")){
+                b12.setText(b11.getText().toString());
+                b11.setText("");
+            }
+        }
+        if (view.getId() == R.id.b12) {
+            if(b8.getText().toString().equals("")){
+                b8.setText(b12.getText().toString());
+                b12.setText("");
+            }
+            else if(b16.getText().toString().equals("")){
+                b16.setText(b12.getText().toString());
+                b12.setText("");
+            }
+            else if(b11.getText().toString().equals("")){
+                b11.setText(b12.getText().toString());
+                b12.setText("");
+            }
+        }
+        if (view.getId() == R.id.b13) {
+            if(b9.getText().toString().equals("")){
+                b9.setText(b13.getText().toString());
+                b13.setText("");
+            }
+            else if(b14.getText().toString().equals("")){
+                b14.setText(b13.getText().toString());
+                b13.setText("");
+            }
+        }
+        if (view.getId() == R.id.b14) {
+            if(b13.getText().toString().equals("")){
+                b13.setText(b14.getText().toString());
+                b14.setText("");
+            }
+            else if(b10.getText().toString().equals("")){
+                b10.setText(b14.getText().toString());
+                b14.setText("");
+            }
+            else if(b15.getText().toString().equals("")){
+                b15.setText(b14.getText().toString());
+                b14.setText("");
+            }
         }
         if (view.getId() == R.id.b15) {
-            if(b16.getText().toString().equals("")){
+            if(b14.getText().toString().equals("")){
+                b14.setText(b15.getText().toString());
+                b15.setText("");
+            }
+            else if(b11.getText().toString().equals("")){
+                b11.setText(b15.getText().toString());
+                b15.setText("");
+            }
+            else if(b16.getText().toString().equals("")){
                 b16.setText(b15.getText().toString());
                 b15.setText("");
             }
@@ -150,6 +317,10 @@ public class SController implements View.OnClickListener{
         if (view.getId() == R.id.b16) {
             if(b15.getText().toString().equals("")){
                 b15.setText(b16.getText().toString());
+                b16.setText("");
+            }
+            else if(b12.getText().toString().equals("")){
+                b12.setText(b16.getText().toString());
                 b16.setText("");
             }
         }
